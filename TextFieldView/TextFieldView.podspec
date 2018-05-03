@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.platform     = :ios, "11.0"
   s.source       = { :git => "https://github.com/RazibUSA/TextFieldView.git", :tag => "#{s.version}" }
-  s.source_files  = "TextFieldView", "TextFieldView/*.{h,m, swift}"
-  s.resources = "TextFieldView/*.{xib,xcassets}"
+  s.source_files  = "TextFieldView", "TextFieldView/**/*.{h,m, swift}"
+  s.resources = "TextFieldView/**/*.{xib,xcassets}"
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.1' }
 
 end
