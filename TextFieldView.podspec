@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TextFieldView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = " Customized UITextField with Validator to design beautiful Form for iPhone & iPad Application."
   s.description  = <<-DESC
                   To design a form view like login, sign up, profile update, we need to use UItextField and validator. This project will give you a quick development of your fancy form.

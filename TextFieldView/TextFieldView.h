@@ -1,6 +1,6 @@
 //
 //  TextFieldView.h
-//  TextFieldView
+//  License under MIT
 //
 //  Created by Mollick, Md Razib Uddin on 5/2/18.
 //  Copyright © 2018 Rio. All rights reserved.

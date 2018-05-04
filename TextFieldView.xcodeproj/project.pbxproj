@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		406CD769209A453000814E8B /* TextFieldViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406CD768209A453000814E8B /* TextFieldViewTests.swift */; };
 		406CD76B209A453000814E8B /* TextFieldView.h in Headers */ = {isa = PBXBuildFile; fileRef = 406CD75D209A453000814E8B /* TextFieldView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		406CD779209A458400814E8B /* TextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 406CD774209A458400814E8B /* TextFieldView.xib */; };
 		406CD77A209A458400814E8B /* TextFieldViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406CD775209A458400814E8B /* TextFieldViewStyle.swift */; };
@@ -31,8 +30,6 @@
 		406CD75D209A453000814E8B /* TextFieldView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldView.h; sourceTree = "<group>"; };
 		406CD75E209A453000814E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		406CD763209A453000814E8B /* TextFieldViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		406CD768209A453000814E8B /* TextFieldViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewTests.swift; sourceTree = "<group>"; };
-		406CD76A209A453000814E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		406CD774209A458400814E8B /* TextFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldView.xib; sourceTree = "<group>"; };
 		406CD775209A458400814E8B /* TextFieldViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldViewStyle.swift; sourceTree = "<group>"; };
 		406CD776209A458400814E8B /* TextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
@@ -62,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				406CD75C209A453000814E8B /* TextFieldView */,
-				406CD767209A453000814E8B /* TextFieldViewTests */,
 				406CD75B209A453000814E8B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,15 +84,6 @@
 				406CD75E209A453000814E8B /* Info.plist */,
 			);
 			path = TextFieldView;
-			sourceTree = "<group>";
-		};
-		406CD767209A453000814E8B /* TextFieldViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				406CD768209A453000814E8B /* TextFieldViewTests.swift */,
-				406CD76A209A453000814E8B /* Info.plist */,
-			);
-			path = TextFieldViewTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,7 +209,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				406CD769209A453000814E8B /* TextFieldViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,6 +1,6 @@
 //
 //  TextFieldViewStyle.swift
-//  FormDesignSwift
+//  License under MIT
 //
 //  Created by Mollick, Md Razib Uddin on 4/28/18.
 //  Copyright © 2018 Rio. All rights reserved.
