@@ -1,0 +1,22 @@
+PODS:
+  - TextFieldView (0.0.1)
+
+DEPENDENCIES:
+  - TextFieldView (from `https://github.com/RazibUSA/TextFieldView.git`, tag `0.0.2`)
+
+EXTERNAL SOURCES:
+  TextFieldView:
+    :git: https://github.com/RazibUSA/TextFieldView.git
+    :tag: 0.0.2
+
+CHECKOUT OPTIONS:
+  TextFieldView:
+    :git: https://github.com/RazibUSA/TextFieldView.git
+    :tag: 0.0.2
+
+SPEC CHECKSUMS:
+  TextFieldView: 825e7afb526f2aa762158b662e60f44390a3a39d
+
+PODFILE CHECKSUM: 82af4d4dd4634d788a9049470d42b042b8ada8ae
+
+COCOAPODS: 1.3.1

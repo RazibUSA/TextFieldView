@@ -1,0 +1,6 @@
+framework module TextFieldView {
+  umbrella header "TextFieldView-umbrella.h"
+
+  export *
+  module * { export * }
+}

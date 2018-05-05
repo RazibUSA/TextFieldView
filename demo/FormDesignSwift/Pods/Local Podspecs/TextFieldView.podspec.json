@@ -1,0 +1,29 @@
+{
+  "name": "TextFieldView",
+  "version": "0.0.1",
+  "summary": "Customized UITextField with Validator to design beautiful Form for iPhone & iPad Application.",
+  "description": "To design a form view like login, sign up, profile update, we need to use UItextField and validator. This project will give you a quick development of your fancy form.\n\nFeatures:\n - variation of Text field like round, box, line\n - Variation color\n - Add icon\n - Validation for password, email. phone, zipcode etc.",
+  "homepage": "https://github.com/RazibUSA/TextFieldView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Razib Mollick": "razib.mollick@gmail.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/RazibUSA/TextFieldView.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "TextFieldView",
+    "TextFieldView/**/*.{h,m, swift}"
+  ],
+  "resources": "TextFieldView/**/*.{xib,xcassets}",
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4.1"
+  }
+}
