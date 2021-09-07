@@ -8,7 +8,7 @@
 
 import UIKit
 
-public protocol Movable: class {
+public protocol Movable: AnyObject {
     func moveUp(indexPath: IndexPath)
 }
 
@@ -120,7 +120,7 @@ open class TextFieldView: UIView {
     public var placeholderColor: UIColor = UIColor.darkGray {
         didSet {
             if let rawString = textField.attributedPlaceholder?.string {
-                let str = NSAttributedString(string: rawString, attributes: [NSAttributedStringKey.foregroundColor: placeholderColor])
+                let str = NSAttributedString(string: rawString, attributes: [NSAttributedString.Key.foregroundColor: placeholderColor])
                 textField.attributedPlaceholder = str
             }
         }
@@ -220,8 +220,8 @@ open class TextFieldView: UIView {
             return
         }
         view.frame = bounds
-        view.autoresizingMask = UIViewAutoresizing(rawValue: UIViewAutoresizing.RawValue(UInt8(UIViewAutoresizing.flexibleWidth.rawValue) | UInt8(UIViewAutoresizing.flexibleHeight.rawValue)))
-        self.textField.addTarget(self, action: #selector(textFieldDidChange), for: UIControlEvents.editingChanged)
+        view.autoresizingMask = UIView.AutoresizingMask(rawValue: UIView.AutoresizingMask.RawValue(UInt8(UIView.AutoresizingMask.flexibleWidth.rawValue) | UInt8(UIView.AutoresizingMask.flexibleHeight.rawValue)))
+        self.textField.addTarget(self, action: #selector(textFieldDidChange), for: UIControl.Event.editingChanged)
         self.addSubview(view)
         self.textField.delegate = self
     }

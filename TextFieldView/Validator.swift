@@ -63,7 +63,7 @@ struct PasswordInputValidator: InputValidator {
             }
             
             let checkList = [digit, upperCaseLetter, specialCharacter, lowerCaseLetter]
-            if let index = checkList.index(where: { !$0 }) {
+            if let index = checkList.firstIndex(where: { !$0 }) {
                 print("\(index) is false")
                 switch index {
                 case 0:
